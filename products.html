@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaqueries.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html"><img src="assets/prestige-logo.png" alt="Logo"></a>
+        <ul class="navMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" id="hamburger-btn"></i>
+        </div>
+        
+        <ul class="hiddenNavMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+   
+    <button onclick="topFunction()" id="b2t"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <btn class="hiddenCart">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </btn>
+
+    <div class="shopContainer">
+        <h2>OUR PRODUCTS</h2>
+        <div class="productsContainer">
+            <div class="productCard">
+                <img src="./assets/JLG-Quick-Detailer-16-oz-new-label_540x.webp" alt="">
+                <h3>Quick Detailer</h3>
+                <p>$ <span class="productTotal">9.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Glass-Cleaner-1024x1024-on-white_540x.webp" alt="">
+                <h3>Glass Cleaner</h3>
+                <p>$ <span class="productTotal">9.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Leno_s-Garage-Matte-Detailer-16-oz.-1024x1024-Layout_8d15af57-b4eb-4b60-89ab-7e6a6193b691_540x.webp" alt="">
+                <h3>Matte Detailer</h3>
+                <p>$ <span class="productTotal">9.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Two-Bucket-Detailing-Kit-WW-no-GC_540x.webp" alt="">
+                <h3>Two Bucket Detailing Kit</h3>
+                <p>$ <span class="productTotal">164.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/lenos_garage_21mm_pad_bundle_540x.webp" alt="">
+                <h3>Pad Bundle</h3>
+                <p>$ <span class="productTotal">49.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/JLG-Hand-Wax-Carnauba-1024x1024_540x.webp" alt="">
+                <h3>Hand Wax</h3>
+                <p>$ <span class="productTotal">17.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Interior-Detailer-on-white-1500x1500_540x.webp" alt="">
+                <h3>Interior Detailer</h3>
+                <p>$ <span class="productTotal">9.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Wheel-Cleaner-Updated-1024x1024-060122_540x.webp" alt="">
+                <h3>Wheel Cleaner</h3>
+                <p>$ <span class="productTotal">14.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/New-Interior-Detailer-Wipes-2000x2000_540x.webp" alt="">
+                <h3>New Interior Detailier Wipes</h3>
+                <p>$ <span class="productTotal">6.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART</span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/lenos_garage_small_boars_hair_interior_brush_001_9e51effa-4608-457e-976d-bd03e552cdff_540x.webp" alt="">
+                <h3>Small Interior Brush</h3>
+                <p>$ <span class="productTotal">12.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Chenille-Wash-Mitt-1024x1024-Layout_540x.webp" alt="">
+                <h3>Chenille Wash Mitt</h3>
+                <p>$ <span class="productTotal">9.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+
+            <div class="productCard">
+                <img src="./assets/Leather-Treatment-Kit-1024x1024-Updated_540x.webp" alt="">
+                <h3>Leather Treatment Kit</h3>
+                <p>$ <span class="productTotal">29.99</span></p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="hiddenProdDetails">
+                    <p>Details:</p>
+                    <p>Lorem cilis,ipsam ducimus doloribus assumenda corp</p>
+                    <p>Quantity:</p>
+                    <div class="qntBtnContainer">
+                        <button id="less" class="qntBtn" onclick="lessQnt(this)">-</button>
+                        <p id="qnt">0</p>
+                        <button id="more" class="qntBtn" onclick="addQnt(this)">+</button>
+                    </div>
+                    <button id="add2cart"><span>ADD TO CART </span></button>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="cartContainer">
+            <div class="summary">
+                
+                
+            </div>
+        
+            <div class="totalCost">
+                <p style="position: relative;">DELIVERY: <span id="delivery">5 $</span> <i class="fa-solid fa-info"></i></p>
+                <p>TOTAL: <span id="total"></span></p>
+                <button id="checkout"> <span>CHECKOUT</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="deleteContainer">
+        <div class="deleteAlert">
+            <p class="deleteText">Do you want to delete this item from your cart?</p>
+            <div class="deleteButtons">
+                <button id="deleteYes">YES</button>
+                <button id="deleteNo">NO</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="newsletter">
+            <form>
+                <input type="text" placeholder="Your email">
+                <input type="button" value="Subscribe to our Newsletter!">
+            </form>
+        </div>
+        <div class="footerContainer">
+            <div class="program">
+                <h3>OPENING HOURS</h3>
+                <p>MONDAY ................... 9:00-18:00</p>
+                <p>TUESDAY .................. 9:00-18:00</p>
+                <p>WEDNESDAY ............ 9:00-18:00</p>
+                <p>THURSDAY ............... 9:00-18:00</p>
+                <p>FRIDAY ...................... 9:00-16:00</p>
+                <p>SATURDAY .............. 10:00-14:00</p>
+                <p>SUNDAY ................... closed</p>
+            </div>
+            <div class="siteLinks">
+                <h3>SITE LINKS</h3>
+                <a href="index.html">HOME</a>
+                <a href="#services">SERVICES</a>
+                <a href="#about">ABOUT US</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="findUs">
+                <h3>WHERE TO FIND US</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4277.2675991754!2d23.814471553364196!3d44.31542545132696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d7a99423eab9%3A0xaaba90d608e0f0c2!2sParcul%20Pu%C8%99kin%20-%20Crizantemelor!5e0!3m2!1sro!2sro!4v1718136233829!5m2!1sro!2sro"
+                    width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div class="socials">
+                <h3>SOCIALS</h3>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <p>Adress: Strada Câmpul Libertății 69, Craiova</p>
+                <p>Tel: 0770 887 724</p>
+            </div>
+        </div>
+        <div class="footerContainerResponsive">
+            <select name="program" id="program">
+                <option value="0" selected hidden>OPENING HOURS</option>
+                <option value="1" disabled>MONDAY ..... 9:00-18:00</option>
+                <option value="2" disabled>TUESDAY .... 9:00-18:00</option>
+                <option value="3" disabled>WEDNESDAY ... 9:00-18:00</option>
+                <option value="4" disabled>THURSDAY ... 9:00-18:00</option>
+                <option value="5" disabled>FRIDAY ..... 9:00-16:00</option>
+                <option value="6" disabled>SATURDAY ..... 10:00-14:00</option>
+                <option value="7" disabled>SUNDAY ..... closed</option>
+            </select>
+            <select name="links" id="links">
+                <option value="0" selected hidden>SITE LINKS</option>
+                <option value="1">HOME</option>
+                <option value="2">SERVICES</option>
+                <option value="3">ABOUT US</option>
+                <option value="4">GALLERY</option>
+                <option value="5">CONTACT</option>
+            </select>
+            <div class="miniFooterContainer">
+                <div class="findUs">
+                    <h3>WHERE TO FIND US</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4277.2675991754!2d23.814471553364196!3d44.31542545132696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d7a99423eab9%3A0xaaba90d608e0f0c2!2sParcul%20Pu%C8%99kin%20-%20Crizantemelor!5e0!3m2!1sro!2sro!4v1718136233829!5m2!1sro!2sro"
+                        width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="socials">
+                    <h3>SOCIALS</h3>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copy">&copy; 2024 Prestige Auto Detailing. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1f04771e26.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,545 @@
+@media  screen and (min-width: 1281px) and (max-width: 1400px) {
+    main{
+        background-size: contain;
+    }
+    .header p{
+        font-size: 15px;
+        min-width: 60px;
+        max-height: none;
+    }
+
+    .navbar{
+        z-index: 4;
+    }
+    
+    .hiddenNavMenu{
+        display: none;
+    }
+    .navMenu a{
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+    .aboutInfo p{
+        margin: 0;
+        font-size: 19px;
+        padding: 0 50px;
+    }
+    .aboutInfo h2{
+        padding: 0;
+    }
+
+    .statsCardContainer{
+        justify-content: space-evenly;
+    }
+
+    .statCard{
+        width: 100px;
+    }
+
+    .galleryContainer .row div{
+        width: 355px;
+        height: 255px;
+    }
+
+    iframe{
+        width: 200px;
+        height: 150px;
+    }
+
+   
+   
+}
+
+@media  screen and (min-width: 901px) and (max-width: 1280px){
+    main{
+        background-size: contain;
+    }
+    .header p{
+        font-size: 15px;
+        min-width: 60px;
+        max-height: none;
+    }
+
+    .navbar{
+        z-index: 4;
+    }
+    
+    .hiddenNavMenu{
+        display: none;
+    }
+    .navMenu a{
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+    .aboutInfo p{
+        margin: 0;
+        font-size: 19px;
+        padding: 0 50px;
+    }
+    .aboutInfo h2{
+        padding: 0;
+    }
+
+    .statsCardContainer{
+        justify-content: space-evenly;
+    }
+
+    .statCard{
+        width: 100px;
+    }
+
+    .galleryContainer .row div{
+        width: 355px;
+        height: 255px;
+    }
+
+    iframe{
+        width: 200px;
+        height: 150px;
+    }
+
+    .productsContainer{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    
+    
+    
+    main{
+        background-size: contain;
+    }
+    .header h2{
+        /* text-align: left; */
+        min-width: 400px;
+    }
+
+    .navbar{
+        justify-content: space-between;
+        z-index: 4;
+    }
+    
+    .navMenu{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        color: #fff;
+        font-size: 50px;
+        align-self: center;
+        margin-right: 20px;
+        z-index: 4;
+        cursor: pointer;
+        order: 3;
+    }
+
+    
+
+    .header p{
+        display: none;
+    }
+
+    .header a{
+        text-align: center;
+    }
+
+    .header a:hover{
+        filter:brightness(0.5);
+        padding: 20px;
+    }
+    
+    .serviceCard img{
+        filter: none;
+    }
+
+    .serviceCard:hover img{
+        transform: none;
+        filter: none;
+    }
+
+    #about{
+        flex-direction: column;
+    }
+
+    .aboutPhoto{
+        width: 100%;
+        height: 300px;
+    }
+
+    .aboutInfo{
+        width: 90%;
+    }
+
+    .aboutInfo h2{
+        margin: 20px 0;
+    }
+
+    .statsCardContainer{
+        flex-wrap: nowrap;
+        width: 80%;
+        
+    }
+
+    .statCard .largeP{
+        font-size: 36px;
+    }
+
+    .statCard p{
+        font-size: 20px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .newsletter form input[type='button']:hover{
+        filter: none;
+        transform: none;
+    }
+
+    .footerContainer{
+        display: none;
+    }
+
+    .footerContainerResponsive{
+        display: block;
+        width: 100%;
+    }
+
+    .footerContainerResponsive select{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        color: #fff;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .footerContainerResponsive select option{
+        width: 100%;
+        color: #fff;
+        background-color: #222;
+    }
+
+    .miniFooterContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .findUs{
+        color: #fff;
+    }
+
+    .findUs iframe{
+        width: 300px;
+    }
+
+    .findUs h3{
+        margin-bottom: 20px;
+    }
+
+    .contactContainer{
+        background-size: contain;
+    }
+
+    .contactForm{
+        width: 70%;
+    }
+
+    .contactForm .contactRow{
+        flex-direction: column;
+    }
+
+    .contactForm .contactRow .contactHalf{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contactForm > div:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .contactForm .contactMessage textarea{
+        margin-bottom: 15px;
+    }
+
+    .contactForm .contactAction input{
+        margin-bottom: 15px;
+    }
+
+    .contactIcons{
+        width: 200px;
+    }
+
+    .galleryPhotos img{
+        filter: grayscale(0);
+    }
+
+    .productsContainer{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hiddenCart{
+        display: flex;
+    }
+
+    .cartContainer{
+        display: none;
+    }
+    .cartContainer.showCart{
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        justify-content: space-between;
+        z-index: 2;
+    }
+    
+    .navMenu{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        color: #fff;
+        font-size: 50px;
+        align-self: center;
+        margin-right: 40px;
+        z-index: 4;
+        cursor: pointer;
+    }
+
+    main{
+        background-size: contain;
+    }
+
+    .header h2{
+        width: 90%;
+        font-size: 40px;
+
+    }
+
+    .header a{
+        padding: 15px;
+    }
+
+    .header a:hover{
+        filter:brightness(0.5);
+        padding: 20px;
+    }
+
+    @keyframes slideDown {
+        to{
+             transform: translateY(110%) translateX(-50%);
+        }
+    }
+    
+    .header p{
+        display: none;
+    }
+
+    .serviceCard img{
+        filter: none;
+    }
+
+    .serviceCard:hover img{
+        transform: none;
+        filter: none;
+    }
+
+    .aboutPhoto{
+        width: 100%;
+        height: 300px;
+    }
+
+    .aboutInfo{
+        width: 100%;
+    }
+
+    .aboutInfo p{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .aboutInfo h2{
+        margin: 20px 0;
+        font-size: 38px;
+    }
+
+    .statsCardContainer{
+        flex-direction: column;
+        gap: 0;
+        padding: 30px 0;
+    }
+
+    .statsCardContainer .line{
+        rotate: 90deg;
+    }
+
+    .footerContainer{
+        display: none;
+    }
+
+    .footerContainerResponsive{
+        display: block;
+        width: 100%;
+    }
+
+    .footerContainerResponsive select{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        color: #fff;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .footerContainerResponsive select option{
+        width: 100%;
+        color: #fff;
+        background-color: #222;
+    }
+
+    .miniFooterContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .findUs{
+        color: #fff;
+    }
+
+    .findUs iframe{
+        width: 300px;
+    }
+
+    .findUs h3{
+        margin-bottom: 20px;
+    }
+
+ 
+
+    .newsletter form{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .newsletter form input[type='text']{
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .newsletter form input[type='button']{
+        width: 90%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .newsletter form input[type='button']:hover{
+        filter: none;
+        transform: none;
+    }
+
+    .contactContainer{
+        background-size: contain;
+    }
+
+    .contactForm{
+        width: 70%;
+        padding: 25px 20px 20px 25px;
+    }
+
+    .contactForm .contactRow{
+        flex-direction: column;
+    }
+
+    .contactForm .contactRow .contactHalf{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contactForm > div:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .contactForm .contactMessage textarea{
+        margin-bottom: 15px;
+    }
+
+    .contactAction{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactForm .contactAction input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contactFooter{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contactIcons{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .contactFooter p{
+        margin-top: 10px;
+    }
+
+    .bigGalleryContainer h2{
+        font-size: 35px;
+    }
+
+    .galleryPhotos img{
+        width: 300px;
+        filter: grayscale(0);
+    }
+
+    .productsContainer{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hiddenCart{
+        display: flex;
+    }
+
+    .cartContainer{
+        display: none;
+    }
+    .cartContainer.showCart{
+        display: block;
+    }
+}

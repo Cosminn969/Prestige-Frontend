@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prestige Auto Detailing</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/mediaqueries.css">
+    </head>
+<body>
+
+    
+    <div class="navbar navGallery">
+        <a href="index.html"><img src="assets/prestige-logo.png" alt="Logo"></a>
+        <ul class="navMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" id="hamburger-btn"></i>
+        </div>
+        <ul class="hiddenNavMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="bigGalleryContainer">
+            <h2>OUR GALLERY</h2>
+            <div class="galleryPhotos">
+                <img src="/assets/gallery-1.jpg" alt="">
+                <img src="/assets/gallery-2.jpg" alt="">
+                <img src="assets/gallery-3.jpg" alt="">
+                <img src="assets/gallery-6.jpeg" alt="">
+                <img src="assets/gallery-5.jpg" alt="">
+                <img src="assets/gallery-4.jpg" alt="">
+                <img src="assets/gallery-7.jpg" alt="">
+                <img src="assets/gallery-8.jpg" alt="">
+                <img src="assets/gallery-9.jpeg" alt="">
+                <img src="assets/gallery-10.webp" alt="">
+                <img src="assets/gallery-12.jpeg" alt="">
+                <img src="assets/gallery-11.jpg" alt="">
+                <img src="assets/gallery-8.jpg" alt="">
+                <img src="assets/gallery-9.jpeg" alt="">
+                <img src="assets/gallery-10.webp" alt="">
+                <img src="assets/gallery-12.jpeg" alt="">
+                <img src="assets/gallery-11.jpg" alt="">
+                <img src="/assets/gallery-1.jpg" alt="">
+                <img src="/assets/gallery-2.jpg" alt="">
+                <img src="assets/gallery-3.jpg" alt="">
+            </div>
+    </div>
+    
+    <footer>
+        <div class="newsletter">
+            <form>
+                <input type="text" placeholder="Your email">
+                <input type="button" value="Subscribe to our Newsletter!">
+            </form>
+        </div>
+        <div class="footerContainer">
+            <div class="program">
+                <h3>OPENING HOURS</h3>
+                <p>MONDAY ................... 9:00-18:00</p>
+                <p>TUESDAY .................. 9:00-18:00</p>
+                <p>WEDNESDAY ............ 9:00-18:00</p>
+                <p>THURSDAY ............... 9:00-18:00</p>
+                <p>FRIDAY ...................... 9:00-16:00</p>
+                <p>SATURDAY .............. 10:00-14:00</p>
+                <p>SUNDAY ................... closed</p>
+            </div>
+            <div class="siteLinks">
+                <h3>SITE LINKS</h3>
+                <a href="index.html">HOME</a>
+                <a href="#">SERVICES</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">GALLERY</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="findUs">
+                <h3>WHERE TO FIND US</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4277.2675991754!2d23.814471553364196!3d44.31542545132696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d7a99423eab9%3A0xaaba90d608e0f0c2!2sParcul%20Pu%C8%99kin%20-%20Crizantemelor!5e0!3m2!1sro!2sro!4v1718136233829!5m2!1sro!2sro"
+                    width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div class="socials">
+                <h3>SOCIALS</h3>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <p>Adress: Strada Câmpul Libertății 69, Craiova</p>
+                <p>Tel: 0770 887 724</p>
+            </div>
+        </div>
+        <div class="footerContainerResponsive">
+            <select name="program" id="program">
+                <option value="0" selected hidden>OPENING HOURS</option>
+                <option value="1" disabled>MONDAY ..... 9:00-18:00</option>
+                <option value="2" disabled>TUESDAY .... 9:00-18:00</option>
+                <option value="3" disabled>WEDNESDAY ... 9:00-18:00</option>
+                <option value="4" disabled>THURSDAY ... 9:00-18:00</option>
+                <option value="5" disabled>FRIDAY ..... 9:00-16:00</option>
+                <option value="6" disabled>SATURDAY ..... 10:00-14:00</option>
+                <option value="7" disabled>SUNDAY ..... closed</option>
+            </select>
+            <select name="links" id="links">
+                <option value="0" selected hidden>SITE LINKS</option>
+                <option value="1">HOME</option>
+                <option value="2">SERVICES</option>
+                <option value="3">ABOUT US</option>
+                <option value="4">GALLERY</option>
+                <option value="5">CONTACT</option>
+            </select>
+            <div class="miniFooterContainer">
+                <div class="findUs">
+                    <h3>WHERE TO FIND US</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4277.2675991754!2d23.814471553364196!3d44.31542545132696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d7a99423eab9%3A0xaaba90d608e0f0c2!2sParcul%20Pu%C8%99kin%20-%20Crizantemelor!5e0!3m2!1sro!2sro!4v1718136233829!5m2!1sro!2sro"
+                        width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="socials">
+                    <h3>SOCIALS</h3>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copy">&copy; 2024 Prestige Auto Detailing. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1f04771e26.js" crossorigin="anonymous"></script>
+</body>
+</html>
